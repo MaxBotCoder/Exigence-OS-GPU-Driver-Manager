@@ -26,7 +26,7 @@ def detect_GPU():
     print("detecting gpu")
 
 def show_GPU_driver_options():
-    print("It has been detected that your system has an")
+    print(f"It has been detected that your system has an {platform.uname}")
 
 def command_input(command_input):
     if commands == "1":
