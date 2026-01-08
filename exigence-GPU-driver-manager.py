@@ -3,6 +3,8 @@ print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.0 alpha")
 
 #modules/libraries
 import os
+import platform
+import subprocess
 
 #variables
 commands = ""
