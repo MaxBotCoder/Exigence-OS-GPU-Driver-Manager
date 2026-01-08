@@ -1,4 +1,4 @@
-#Startup message.
+#Startup message
 
 #modules/libraries
 
