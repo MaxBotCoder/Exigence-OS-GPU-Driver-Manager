@@ -1,5 +1,5 @@
 #Startup message
-print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.1 alpha")
+print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.2 alpha")
 
 #root confirmation
 if os.geteuid != 0:
@@ -14,7 +14,7 @@ import subprocess
 commands = ""
 
 #gpu name
-gpu = ""
+#gpu = ""
 
 #functions
 def install_nvidia_gpu_driver():
@@ -33,12 +33,19 @@ def show_GPU_driver_options():
     #print(f"It has been detected that your system has an {platform.uname}")
     print("Drivers are provided for amd, intel and nvidia gpus.\nTo install your desired driver please type in the letter allocated to the driver!")
     print(""
+        A) Nvidia Open Kernel Modules driver (Dedicated GPU Only)
+        B) AMD ROcm driver (Dedicated GPU Only)
     "")
 
 def command_input(command_input):
-    if commands == "1":
-        print("Driver Option 1")
-
+    yn = ""
+    if commands.lower() == "a":
+        if yn == y:
+        elif yn == n:
+    elif commands.lower() == "b":
+        if yn == y:
+        elif yn == n:
+        
 #show driver options
 show_GPU_driver_options()
 
