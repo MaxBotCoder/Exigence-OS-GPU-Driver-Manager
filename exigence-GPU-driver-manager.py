@@ -20,9 +20,6 @@ commands = ""
 def install_nvidia_gpu_driver():
     print("installing nvidia gpu driver")
 
-def install_intel_gpu_driver():
-    print("installing intel gpu driver")
-
 def install_amd_gpu_driver():
     print("installing amd gpu driver")
 
