@@ -22,8 +22,8 @@ def install_intel_gpu_driver():
 def install_amd_gpu_driver():
     print("installing amd gpu driver")
 
-def detect_GPU():
-    print("detecting gpu")
+#def detect_GPU():
+#    print("detecting gpu")
 
 def show_GPU_driver_options():
     print(f"It has been detected that your system has an {platform.uname}")
@@ -38,4 +38,3 @@ show_GPU_driver_options()
 #call functions
 while commands != "quit" and commands != "exit":
     command_input(commands)
-
