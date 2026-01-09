@@ -32,10 +32,10 @@ def install_amd_gpu_driver():
 def show_GPU_driver_options():
     #print(f"It has been detected that your system has an {platform.uname}")
     print("Drivers are provided for amd, intel and nvidia gpus.\nTo install your desired driver please type in the letter allocated to the driver!")
-    print(""
+    print("""
         A) Nvidia Open Kernel Modules driver (Dedicated GPU Only)
         B) AMD ROcm driver (Dedicated GPU Only)
-    "")
+    """)
 
 def command_input(command_input):
     yn = ""
