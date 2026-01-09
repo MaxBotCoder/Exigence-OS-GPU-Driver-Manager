@@ -16,10 +16,10 @@ commands = ""
 
 #functions
 def install_nvidia_gpu_driver():
-    print("installing nvidia gpu driver")
+    print("installing nvidia opek kernel driver")
 
 def install_amd_gpu_driver():
-    print("installing amd gpu driver")
+    print("installing amd rocm driver")
 
 #def detect_GPU():
 #    print("detecting gpu")
