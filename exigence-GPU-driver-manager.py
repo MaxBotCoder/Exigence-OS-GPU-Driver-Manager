@@ -1,5 +1,5 @@
 #Startup message
-print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.2.5 alpha")
+print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.2 alpha")
 
 #root confirmation
 if os.geteuid != 0:
