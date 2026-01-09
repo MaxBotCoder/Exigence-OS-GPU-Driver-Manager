@@ -1,5 +1,9 @@
 #Startup message
-print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.0 alpha")
+print("Welcome to Exegence-OS-GPU-driver-installer version 0.1.1 alpha")
+
+#root confirmation
+if os.geteuid != 0:
+    print("This application requires root privaleges please enable root privaleges via su on debian or sudo su on ubuntu.")
 
 #modules/libraries
 import os
