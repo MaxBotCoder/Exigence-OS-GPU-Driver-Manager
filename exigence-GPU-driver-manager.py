@@ -7,8 +7,6 @@ if os.geteuid != 0:
 
 #modules/libraries
 import os
-import platform
-import subprocess
 
 #variables
 commands = ""
